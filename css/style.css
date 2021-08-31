@@ -86,7 +86,7 @@ ul, ol {
 
 /*General links color*/
 a {
-  color: #434bdf;
+  color: #000;
   text-decoration: none;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -118,7 +118,7 @@ a.animated_link:before {
   bottom: 0;
   opacity: 1;
   left: 0;
-  background-color: #434bdf;
+  background-color: #000;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -137,7 +137,7 @@ a.animated_link:hover:before {
 a.animated_link.active {
   position: relative;
   text-decoration: none;
-  color: #434bdf;
+  color: #000;
 }
 a.animated_link.active:before {
   content: "";
@@ -147,7 +147,7 @@ a.animated_link.active:before {
   bottom: 0;
   opacity: 1;
   left: 0;
-  background-color: #434bdf;
+  background-color: #000;
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -158,7 +158,7 @@ a.btn_1,
 .btn_1 {
   border: none;
   color: #fff;
-  background: #434bdf;
+  background: #000;
   outline: none;
   cursor: pointer;
   display: inline-block;
@@ -1346,9 +1346,19 @@ span.error:after {
     margin-left: auto;
     margin-right: auto;
   }
+  #mobile-hide {
+    display: none !important;
+  }
+  #desktop-hide {
+    display: block !important;
+  }
 }
 
 .loc-logo {
     height: 550px;
     width: 560px;
   }
+
+#desktop-hide {
+  display: none;
+}
