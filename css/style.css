@@ -1341,7 +1341,7 @@ span.error:after {
     text-align: center;
   }
   .loc-logo {
-    height: 300px !important;
+    height: 390px !important;
     width: 400px !important;
     margin-left: auto;
     margin-right: auto;
@@ -1349,6 +1349,6 @@ span.error:after {
 }
 
 .loc-logo {
-    height: 400px;
-    width: 600px;
+    height: 550px;
+    width: 560px;
   }
